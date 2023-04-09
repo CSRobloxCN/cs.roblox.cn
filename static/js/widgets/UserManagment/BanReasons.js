@@ -1,0 +1,53 @@
+const BanReasons = {
+  UserNameViolation: ["BadDisplayName"],
+  UserMessageViolation: [
+    "Spam",
+    "Bullying",
+    "Harassment",
+    "PersonalAttacks",
+    "Swearing",
+    "RealLifeThreats",
+    "HateSpeech",
+    "DiscriminatoryContent",
+    "PersonalInfo",
+    "InappropriateTalk",
+    "BadImage",
+    "Dispute",
+  ],
+  UserActionViolation: [
+    "Bullying",
+    "Harassment",
+    "PersonalAttacks",
+    "Swearing",
+    "RealLifeThreats",
+    "HateSpeech",
+    "DiscriminatoryContent",
+    "PersonalInfo",
+    "InappropriateTalk",
+    "BadImage",
+    "Dispute",
+    "Dating",
+    "Grooming",
+    "SexGames",
+    "Link",
+    "AccountTheft",
+    "Refund",
+    "SellingAssetsforUSD",
+    "BuyingAssetsforUSD",
+    "Scam",
+    "KnownFraud",
+    "BotAccount",
+    "Exploiting",
+    "AltSpamAccounts",
+    "GeneralAbuse",
+    "Other",
+  ],
+};
+
+const NoteToUsers = [
+  "UserNameViolation",
+  "UserMessageViolation",
+  "UserActionViolation",
+];
+
+export default { BanReasons, NoteToUsers };
